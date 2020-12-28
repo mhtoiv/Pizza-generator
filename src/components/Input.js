@@ -26,7 +26,7 @@ const Input = ({name, step, min, max, value, setValue}) => {
         <div className="input-container">
             <p>{name}</p>
             <button onClick={subtract}>-</button>
-            <input type="number" value={value} min={min} max={max} step={step} onChange={handleChange}/>
+            <input type="number" value={value || ''} min={min} max={max} step={step} onChange={handleChange}/>
             <button onClick={add}>+</button>
         </div>
     )
