@@ -33,14 +33,14 @@ function App() {
           <h1>Pizza Generator</h1>
           <div className="flex">
               <div>
-                  <Input className={"margin-bot"} name={"Dough balls"} value={balls} setValue={setBalls} step={1} min={0} max={20} acc={0}/>
-                  <Input name={"Weight per ball"} value={weight} setValue={setWeight} step={1} min={0} max={500} acc={0}/>
-                  <Input name={"Water%"} value={water} setValue={setWater} step={1} min={0} max={80} acc={0}/>
-                  <Input name={"Salt%"} value={salt} setValue={setSalt} step={0.1} min={0} max={10} acc={1}/>
-                  <Input name={"Oil%"} value={oil} setValue={setOil} step={0.1} min={0} max={10} acc={1}/>
-                  <Input name={"Yeast%"} value={yeast} setValue={setYeast} step={0.1} min={0} max={3} acc={1}/>
+                  <Input className={"margin-bot"} name={"Dough balls"} value={balls} setValue={setBalls} step={1} min={0} max={20}/>
+                  <Input name={"Weight per ball"} value={weight} setValue={setWeight} step={1} min={0} max={500}/>
+                  <Input name={"Water%"} value={water} setValue={setWater} step={1} min={0} max={80}/>
+                  <Input name={"Salt%"} value={salt} setValue={setSalt} step={0.1} min={0} max={10}/>
+                  <Input name={"Oil%"} value={oil} setValue={setOil} step={0.1} min={0} max={10}/>
+                  <Input name={"Yeast%"} value={yeast} setValue={setYeast} step={0.1} min={0} max={3}/>
               </div>
-              <div>
+              <div className="ingredients">
                   <h3>Ingredients</h3>
                   <p>{flour.toFixed(0)} grams of flour</p>
                   <p>{waterGrams} grams of water</p>

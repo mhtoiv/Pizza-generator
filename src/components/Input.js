@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const Input = ({name, def, step, min, max, acc, value, setValue}) => {
+const Input = ({name, step, min, max, value, setValue}) => {
 
 
 
@@ -19,13 +19,7 @@ const Input = ({name, def, step, min, max, acc, value, setValue}) => {
     };
 
     const handleChange = (event) => {
-        if(event.target.value > max){
-            setValue(max)
-        }else if(event.target.value < min){
-            setValue(min)
-        }else {
             setValue(Number(event.target.value));
-        }
     };
 
     return(
