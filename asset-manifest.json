@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pizza-generator/static/css/main.45068b04.chunk.css",
-    "main.js": "/pizza-generator/static/js/main.7f0f7d94.chunk.js",
-    "main.js.map": "/pizza-generator/static/js/main.7f0f7d94.chunk.js.map",
-    "runtime-main.js": "/pizza-generator/static/js/runtime-main.a820dda0.js",
-    "runtime-main.js.map": "/pizza-generator/static/js/runtime-main.a820dda0.js.map",
-    "static/js/2.dd9573a9.chunk.js": "/pizza-generator/static/js/2.dd9573a9.chunk.js",
-    "static/js/2.dd9573a9.chunk.js.map": "/pizza-generator/static/js/2.dd9573a9.chunk.js.map",
-    "index.html": "/pizza-generator/index.html",
-    "static/css/main.45068b04.chunk.css.map": "/pizza-generator/static/css/main.45068b04.chunk.css.map",
-    "static/js/2.dd9573a9.chunk.js.LICENSE.txt": "/pizza-generator/static/js/2.dd9573a9.chunk.js.LICENSE.txt"
+    "main.css": "/Pizza-generator/static/css/main.45068b04.chunk.css",
+    "main.js": "/Pizza-generator/static/js/main.7f0f7d94.chunk.js",
+    "main.js.map": "/Pizza-generator/static/js/main.7f0f7d94.chunk.js.map",
+    "runtime-main.js": "/Pizza-generator/static/js/runtime-main.42fd53ea.js",
+    "runtime-main.js.map": "/Pizza-generator/static/js/runtime-main.42fd53ea.js.map",
+    "static/js/2.dd9573a9.chunk.js": "/Pizza-generator/static/js/2.dd9573a9.chunk.js",
+    "static/js/2.dd9573a9.chunk.js.map": "/Pizza-generator/static/js/2.dd9573a9.chunk.js.map",
+    "index.html": "/Pizza-generator/index.html",
+    "static/css/main.45068b04.chunk.css.map": "/Pizza-generator/static/css/main.45068b04.chunk.css.map",
+    "static/js/2.dd9573a9.chunk.js.LICENSE.txt": "/Pizza-generator/static/js/2.dd9573a9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a820dda0.js",
+    "static/js/runtime-main.42fd53ea.js",
     "static/js/2.dd9573a9.chunk.js",
     "static/css/main.45068b04.chunk.css",
     "static/js/main.7f0f7d94.chunk.js"
